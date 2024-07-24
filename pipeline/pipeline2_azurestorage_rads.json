@@ -1,9 +1,10 @@
 {
-	"name": "pipeline1",
+	"name": "pipeline2_azurestorage_rads",
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data1",
+				"name": "Copy data",
+				"description": "copy titanic file from storage account to aws rds",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
