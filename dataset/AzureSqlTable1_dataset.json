@@ -1,0 +1,65 @@
+{
+	"name": "AzureSqlTable1_dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "PassengerId",
+				"type": "varchar"
+			},
+			{
+				"name": "Survived",
+				"type": "varchar"
+			},
+			{
+				"name": "Pclass",
+				"type": "varchar"
+			},
+			{
+				"name": "Name",
+				"type": "varchar"
+			},
+			{
+				"name": "Sex",
+				"type": "varchar"
+			},
+			{
+				"name": "Age",
+				"type": "varchar"
+			},
+			{
+				"name": "SibSp",
+				"type": "varchar"
+			},
+			{
+				"name": "Parch",
+				"type": "varchar"
+			},
+			{
+				"name": "Ticket",
+				"type": "varchar"
+			},
+			{
+				"name": "Fare",
+				"type": "varchar"
+			},
+			{
+				"name": "Cabin",
+				"type": "varchar"
+			},
+			{
+				"name": "Embarked",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Titanic"
+		}
+	}
+}
