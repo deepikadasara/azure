@@ -1,5 +1,5 @@
 {
-	"name": "pipeline2_azurestorage_rads",
+	"name": "pipeline2_azurestorage_rds",
 	"properties": {
 		"activities": [
 			{
