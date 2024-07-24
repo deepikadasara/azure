@@ -5,11 +5,26 @@
 		"factoryName": {
 			"value": "deepika-adf1"
 		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
 		"LS_sca1_connectionString": {
 			"value": ""
 		},
 		"LS_sca2_connectionString": {
 			"value": ""
+		},
+		"MySql1_password": {
+			"value": ""
+		},
+		"MySql1_properties_typeProperties_server": {
+			"value": "database-1.c9m2ackiusdg.us-east-1.rds.amazonaws.com"
+		},
+		"MySql1_properties_typeProperties_database": {
+			"value": "titanic_db"
+		},
+		"MySql1_properties_typeProperties_username": {
+			"value": "admin"
 		},
 		"containerUri": {
 			"value": ""
